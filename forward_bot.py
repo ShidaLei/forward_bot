@@ -37,7 +37,7 @@ def add_friend(msg):
 @itchat.msg_register(TEXT, isGroupChat=True)
 def text_reply(msg):
     if msg.isAt:
-        msg.user.send(u'@%s\u2005 啊？我只是个传话的呀' % (
+        msg.user.send(u'@%s\u2005啊？我只是个传话的呀' % (
             msg.actualNickName))
 
 @itchat.msg_register([TEXT, SHARING], isGroupChat=True)
