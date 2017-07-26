@@ -29,7 +29,7 @@ def tuling_reply(msg):
 @itchat.msg_register(FRIENDS)
 def add_friend(msg):
 	itchat.add_friend(**msg['Text']) # 该操作会自动将新好友的消息录入，不需要重载通讯录
-	itchat.send_msg(u'你好哇。平时这里驻守一只二狗子陪你聊天，还可以讲笑话。', msg['RecommendInfo']['UserName'])
+	itchat.send_msg(u'你好哇。我是微信群传话助手。当然找我私聊也是可以的，我还会讲笑话。', msg['RecommendInfo']['UserName'])
 
 # 自动回复文本等类别的群聊消息
 # isGroupChat=True表示为群聊消息
