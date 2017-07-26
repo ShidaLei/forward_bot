@@ -9,3 +9,7 @@ In addition, I added a tuling robot to chat with people who side-text the robot.
 The name of this robot is Enrique, same as my first pet dog.
 
 在微信群之间传递消息，外加图灵机器人陪聊。
+
+致谢
+itchat；
+张宏伦：https://zhuanlan.zhihu.com/p/25445025
